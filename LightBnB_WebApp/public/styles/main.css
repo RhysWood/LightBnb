@@ -1,3 +1,7 @@
+main {
+  background-color: whitesmoke;
+}
+
 .property-listings {
   width: 100%;
   display: flex;
@@ -10,7 +14,10 @@
   max-width: 600px;
   height: 200px;
   border: 1px solid black;
+  border-radius: 3%;
+  background-color: antiquewhite;
   box-sizing: border-box;
+  padding: 0.5em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,8 +30,7 @@
     max-width: 50%; }
     .property-listing__preview-image img {
       min-width: 100%;
-      height: 100%;
-      padding: 0; }
+      height: 100%; }
 
 @media screen and (max-width: 400px) {
   .property-listing {

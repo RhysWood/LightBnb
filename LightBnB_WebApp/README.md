@@ -41,3 +41,17 @@
   * `apiRoutes.js` and `userRoutes.js` are responsible for any HTTP requests to `/users/something` or `/api/something`. 
   * `json` is a directory that contains a bunch of dummy data in `.json` files.
   * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
+
+## SQL Features 
+
+!["homepage"](docs/search.png)
+> Users have the ability to carry out custom searches using one or multiple criteria to search for the listing which is right for them.
+
+!["homepage"](docs/LoggedIn.png)
+> Users  have the opportunity to log in and view their listings and reservations, personalized to them.
+
+## Entity Relationship Diagram
+
+!["ERD Screenshot"](docs/erd_lighthouseBnB.png)
+
+> This ERD shows the relationship between the tables within the database, making it easier to understand the SQL queries within the app. (Created using dbdiagram.io)
